@@ -14,7 +14,7 @@ After that, one way to integrate this is to create a `babel.config.js` in the ro
 ```
 const nextModeBabelPlugin = require('next-babel-conditional-ssg-ssr');
 
-const presets = ["next/babel"];
+const presets = ['next/babel'];
 const plugins = [nextModeBabelPlugin('ssr')]; // or ssg, pull from `process.env.BUILD_MODE`?
 
 module.exports = { presets, plugins };
