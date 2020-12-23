@@ -1,0 +1,8 @@
+{
+  "name": "next-babel-conditional-ssg-ssr",
+  "version": "1.0.0",
+  "description": "A babel plugin for Next.js that conditionally removes getStaticProps/getStaticPaths or getServerSideProps depending on the desired mode.",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT"
+}
