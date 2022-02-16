@@ -35,10 +35,9 @@ module.exports = (mode) => {
                 if (
                   shouldExportBeDeleted(
                     mode,
-                    t.isIdentifier(s.node.exported)
+                    s.isIdentifier(s.node.exported)
                       ? s.node.exported.name
-                      : s.node.exported.value,
-                    exportNamedState
+                      : s.node.exported.value
                   )
                 ) {
                   s.remove();
